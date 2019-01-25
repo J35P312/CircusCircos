@@ -5,10 +5,11 @@ Scripts and singularity collection for running the Circos diagram tool
 
 Requires singularity, should work on most linux computers
 
-
 # usage
 
 Download the singularity collection
+
+	singularity pull --name circus.simg shub://J35P312/CircusCircos
 
 The collection contains all dependencies for running circos. Download circos:
 
@@ -23,5 +24,6 @@ Run the example
 
 Create your own circos configs, and run in a similar fasion.
 Remember to only use relative path within your circos config, otherwise, singularity will resolve within the container.
+
 
 
